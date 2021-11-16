@@ -38,8 +38,7 @@ body {
 }
 
 body,
-:is(h1, h2, h3, a, p, input, label, button, li, span),
-:is(.first-half, .last-half) {
+:is(h1, h2, h3, a, p, input, label, button, li, span) {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 150%;
@@ -421,7 +420,7 @@ ul {
   text-align: center;
 }
 
-.services-container {
+.services-items-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
