@@ -172,6 +172,8 @@
   box-shadow: 0px 5px 24px 2px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   background-color: var(--white);
+  max-width: 32.6rem;
+  width: 100%;
 }
 
 .card-header {
@@ -512,7 +514,7 @@
 
 .input-container {
   display: grid;
-  grid-template-columns: repeat(2, min(100%, 20.8rem));
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 3.2rem 9.6rem;
 }
@@ -627,7 +629,6 @@
 
 .footer-last {
   background-color: #4DAAE9;
-  padding: 2.2rem;
   font-size: var(--small);
   color: var(--white);
 }
@@ -636,6 +637,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 2.2rem 0;
 }
 
 .privacy {
