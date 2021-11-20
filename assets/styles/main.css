@@ -542,6 +542,7 @@
   border-bottom: 1.5px solid var(--gray);
   padding: 0.2rem 0.8rem;
   font-size: var(--xx-small);
+  width: 100%;
 }
 
 .input-group :is(input, textarea)::placeholder {
