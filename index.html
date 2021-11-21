@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/styles/global.css" />
     <link rel="stylesheet" href="./assets/styles/main.css" />
     <link rel="stylesheet" href="./assets/styles/responsive.css">
+    <link rel="stylesheet" href="./assets/styles/animations.css">
   </head>
   <body>
     <div class="hero-bg-container">
@@ -87,15 +88,16 @@
 
       <main>
         <section id="prices" class="price-section">
-          <div class="price
-          -container">
-            <h2 class="price-title">
-              <span class="first-half">Our</span>
-              <span class="last-half">Pricing</span>
-            </h2>
-  
-            <p class="price-text">Penawaran tebaik untuk anda</p>
-  
+          <div class="price-container">
+            <header class="price-header">
+              <h2 class="price-title">
+                <span class="first-half">Our</span>
+                <span class="last-half">Pricing</span>
+              </h2>
+    
+              <p class="price-text">Penawaran tebaik untuk anda</p>
+            </header>
+
             <div class="card-container">
               <article class="card">
                 <header class="card-header">
@@ -192,17 +194,19 @@
         
         <section id="services" class="services-section">
           <div class="services-container">
-            <h2 class="services-title">
-              <span class="first-half">Our</span>
-              <span class="last-half">Services</span>
-            </h2>
+            <header class="services-header">
+              <h2 class="services-title">
+                <span class="first-half">Our</span>
+                <span class="last-half">Services</span>
+              </h2>
+    
+              <p class="services-text">Layanan yang kita tawarkan untuk anda</p>
+            </header>
   
-            <p class="services-text">Layanan yang kita tawarkan untuk anda</p>
-  
-            <div class="services-items-container">
+            <div class="services">
               <article class="service">
                 <div class="service-icon-container">
-                  <img src="./assets/images/design.svg" alt="Design">
+                  <img class="service-icon" src="./assets/images/design.svg" alt="Design">
                 </div>
   
                 <span class="service-title">Design</span>
@@ -211,7 +215,7 @@
   
               <article class="service">
                 <div class="service-icon-container">
-                  <img src="./assets/images/photo.svg" alt="Photo">
+                  <img class="service-icon" src="./assets/images/photo.svg" alt="Photo">
                 </div>
   
                 <span class="service-title">Photo</span>
@@ -220,7 +224,7 @@
   
               <article class="service">
                 <div class="service-icon-container">
-                  <img src="./assets/images/video.svg" alt="Video">
+                  <img class="service-icon" src="./assets/images/video.svg" alt="Video">
                 </div>
   
                 <span class="service-title">Video</span>
@@ -229,7 +233,7 @@
   
               <article class="service">
                 <div class="service-icon-container">
-                  <img src="./assets/images/caption.svg" alt="Caption">
+                  <img class="service-icon" src="./assets/images/caption.svg" alt="Caption">
                 </div>
   
                 <span class="service-title">Caption</span>
@@ -238,7 +242,7 @@
   
               <article class="service">
                 <div class="service-icon-container">
-                  <img src="./assets/images/landing-page.svg" alt="Landing Page">
+                  <img class="service-icon" src="./assets/images/landing-page.svg" alt="Landing Page">
                 </div>
   
                 <span class="service-title">Landing Page</span>
@@ -253,7 +257,9 @@
     <section id="contact" class="contact-section">
       <div class="container">
         <div class="contact-container">
-          <h2 class="contact-title">Contact Us</h2>
+          <header class="contact-header">
+            <h2 class="contact-title">Contact Us</h2>
+          </header>
 
           <div class="info-message-container">
             <div class="info-container">
@@ -387,5 +393,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./assets/scripts/animations.js"></script>
   </body>
 </html>

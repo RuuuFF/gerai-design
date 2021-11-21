@@ -368,7 +368,7 @@
   font-weight: 700;
 }
 
-.services-items-container {
+.services {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -428,6 +428,7 @@
   background-blend-mode: multiply;
   background-size: cover;
   padding: 7.2rem 0 14.8rem;
+  overflow: hidden;
 }
 
 .contact-title {
@@ -455,6 +456,7 @@
   padding: 2.3rem 3.2rem;
   color: var(--white);
   background-color: var(--blue-3);
+  z-index: 1;
 }
 
 .info-title {
