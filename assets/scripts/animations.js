@@ -13,7 +13,8 @@ for (let selector of selectors) {
 
 const checkNodes = () => {
   /*
-    Se a largura da tela foi maior que 480px, ele atribui 70% da altura da tela (de cima para baixo). Caso seja menor, ele atribui 80%.
+    Se a largura da tela foi maior que 480px, ele atribui 70% da altura da tela (de cima
+    para baixo). Caso seja menor, ele atribui 80%.
   */
   const trigger = window.innerWidth > 480 ? window.innerHeight * 70 / 100 : window.innerHeight * 80 / 100
 

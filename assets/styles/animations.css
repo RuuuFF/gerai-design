@@ -43,20 +43,20 @@ body.load .nav ul li:nth-child(4) {
 /* ======== HERO ======== */
 body .hero-container > * {
   opacity: 0;
-  transform: translate(25px, 45px);
+  transform: translateY(45px);
 }
 
 body .hero-container > *:nth-child(odd) {
-  transform: translate(-25px, 45px);
+  transform: translateY(45px);
 }
 
 body .hero-container > *:last-child {
-  transform: translate(0, 40px);
+  transform: translateY(40px);
 }
 
 body.load .hero-container > * {
   opacity: 1;
-  transform: translate(0px, 0px) !important;
+  transform: translateY(0px) !important;
 }
 
 body.load .hero-container > *:nth-child(1) {
@@ -110,7 +110,7 @@ body.load .hero-container > *:nth-child(4) {
 
 .price-container.show .card {
   opacity: 1;
-  transform: translate(0, 0);
+  transform: translate(0, 0) !important;
 }
 
 /* ======== SERVICES CONTAINER ======== */
@@ -215,15 +215,24 @@ body.load .hero-container > *:nth-child(4) {
   /* ======== HERO ======== */
   body .hero-container > * {
     opacity: 0;
-    transform: translate(10px, 20px);
+    transform: translateY(20px);
   }
   
   body .hero-container > *:nth-child(odd) {
-    transform: translate(-10px, 20px);
+    transform: translateY(20px);
   }
   
   body .hero-container > *:last-child {
-    transform: translate(0, 30px);
+    transform: translateY(30px);
+  }
+
+  /* ======== CARDS ======== */
+  .price-container .card:nth-child(1) {
+    transform: translate(0, 40px);
+  }
+
+  .price-container .card:nth-child(3) {
+    transform: translate(0, 40px);
   }
 
   /* ======== INFO ======== */
